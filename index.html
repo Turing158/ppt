@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 引入css -->
+    <link rel="stylesheet" href="index.css">
+    <title>Javascript轮播图</title>
+</head>
+<!-- 引入js -->
+<script src="index.js">
+</script>
+<body>
+    <!-- 按钮 -->
+    <div id="ppt" onmouseover="ppt_stop()" onmouseleave="ppt_start()">
+        <div class="il" onclick="ppt_left()">&lt;-</div>
+        <div class="ir" onclick="ppt_right()">-&gt;</div>
+        <div id="ppt_dot">
+            <div id="pd1" onclick="click_dot1()"></div>
+            <div id="pd2" onclick="click_dot2()"></div>
+            <div id="pd3" onclick="click_dot3()"></div>
+            <div id="pd4" onclick="click_dot4()"></div>
+        </div>
+    </div>
+</body>
+</html>
